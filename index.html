@@ -71,6 +71,11 @@
         <input type="submit" value="Submit" onclick="selected()">
       </div>
     </div>
+    <div>
+      <h2>Take a look at the code that makes this website work<h2>
+      <br>
+      <input type="submit" value="View Code" onclick="viewcode()">
+    </div>
     <script>
       function random() {
         window.location = "/random/";
@@ -79,6 +84,9 @@
         let selectedInput = document.querySelector("#selectedInput")
         localStorage.setItem("selectedLib", Number(selectedInput.value));
         window.location = "/selected/";
+      }
+      function viewcode() {
+        window.open("https://github.com/Foxbox1000/Mad-Libs/");
       }
       let userInput = "";
       document.onkeypress = function(event) {
