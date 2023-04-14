@@ -1,5 +1,5 @@
 let name_database = [];
-name_database.push("spacer");
+name_database.push("Chesper the hacker");
 name_database.push("Blake");
 name_database.push("Kai");
 name_database.push("Ravi");
